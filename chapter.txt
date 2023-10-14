@@ -1,0 +1,26 @@
+How to run flask on your PC💻
+
+
+1, first you have to -> {pip install flack on windows💻, 
+     on mac 💻 i think 🤔 the are pretty much the same pip install as well.
+     } 
+
+2, secondly you have to apply flask templates import flask from Flask class{
+     
+    from flask import Flask
+
+    app = Flask(__name__)
+
+    @app.route('/')
+
+    def hello_world():
+        return 'Hello World!'
+
+    if __name__=="__main__":
+    app.run(debug=True)
+
+3, thridly make sure you create a function {(e.g def give the name
+        of your choice then return what you want to display on the homepage)
+        
+        lastly don't forget to set your debug to True so you can run your app
+        or web as much as you want with out breaking ⛍ }
